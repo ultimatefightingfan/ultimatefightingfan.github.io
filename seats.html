@@ -255,11 +255,19 @@
       <h1 style="border: 3px solid white; text-shadow: 1px 1px white;">Finalize Transaction</h1>
       <p>Add your details:</p>
       <form>
-         Name:<br> <input type="text" name="name">
+         Name:<br> <input type="text" id="name" name="name">
          <br>
-         Email:<br> <input type="text" name="email">
+         Email:<br> <input type="text" id="email" name="email">
          <br>
-         Mode of payment:<br> <input type="text" name="mode of payment">
+         <select name="mode of payment" id="mop">
+		 <option value="Gcash">Gcash</option>
+		 <option value="Credit Number">Credit Number</option>
+	</selected>
+	 <br>
+	 Mobile Number:<br> <input type="text" id="mn" name="mobile number">
+	 <br>
+	 Credit Card Number:<br> <input type="text" id="ccn" name="credit card number">
+	 <br>
       </form>
       <div style="padding:10px">Total: </div>
       <div class="clearfix">
