@@ -1,0 +1,23 @@
+Main page
+-pwede ng mapindot yung menu button para iclose yung navigation bar
+-matatanggal na yung list sa search bar pagkatapos gamitin
+-nadagdag na yung About page
+
+Seats page
+-meron ng label yung mga upuan. ex. A1, C3, etc.
+-sa codes, yung bawat "seat" ay may id na katumbas. ex. id="A4"
+ just in case na kailangan yun para marecord kung anong seat binili nila
+-pag pinindot yung "book" button, meron ng magpopop-up na finalize transaction.
+-sa booking, may lalabas na form na pwedeng ifill-up, at gumagana yung close at confirm
+
+Mga kulang sa ginawa ko
+-di gumagana yung form na ififill-up nila, wala pang recording, design palang sya
+-yung confirm na pop up ay design lang din. wala pang recording sa database.
+-walang validation yung form
+-dun sa form, dapat lalabas dun yung total na bill nila ay kung anong upuan yung binili nila
+ kaso di ko mapalabas dun sa pop-up yung total.
+
+
+-pwedeng ipalit to sa form, literal na checkout form
+https://www.w3schools.com/howto/howto_css_checkout_form.asp
+
