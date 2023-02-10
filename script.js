@@ -63,6 +63,16 @@ function notifConfirm() {
   document.getElementById("showConfirm").innerHTML = text;
 }
 
+function seatCount() {
+  var upuan = count;
+  return upuan;
+}
+
+function totalPrice() {
+  var price = total;
+  return price;
+}
+
 <!-------------------------------------------------------new>
 
 console.log(populateUI())

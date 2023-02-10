@@ -142,6 +142,7 @@ button {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  text-align: center;
 }
 
 button:hover {
@@ -163,6 +164,7 @@ button:hover {
 /* Add a color to the delete button */
 .confirmbtn {
   background-color: green;
+  text-align:center;
 }
 
 /* Add padding and center-align text to the container */
